@@ -26,6 +26,7 @@ export async function POST(req: Request) {
     ],
   });
 
-  const stream = OpenAIStream(response);
+  // Fix: Use the correct type conversion for the OpenAI response
+  const stream = OpenAIStream(response as any);
   return new StreamingTextResponse(stream);
 }
