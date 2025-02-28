@@ -5,8 +5,8 @@ import './globals.css';
 export const runtime = 'edge';
 
 export const metadata = {
-  title: 'Otter',
-  description: 'Bookmarking on your own terms',
+  title: 'arcane by annalhq',
+  description: 'content lib',
 };
 
 export const viewport: Viewport = {

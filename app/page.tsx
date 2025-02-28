@@ -44,30 +44,14 @@ export default async function Index() {
 
       <article>
         <Paragraph className="mt-m">
-          This is an instance of{' '}
+          This is a personalised instance of{' '}
           <Link variant="accent" href="https://github.com/mrmartineau/Otter">
             Otter
           </Link>{' '}
           by{' '}
-          <Link variant="accent" href="https://zander.wtf">
-            Zander Martineau
+          <Link variant="accent" href="https://annalhq.github.io/">
+            Annalhq
           </Link>
-          . It is an open-source, private bookmarking app built on{' '}
-          <Link variant="accent" href="https://nextjs.org">
-            next.js
-          </Link>{' '}
-          and{' '}
-          <Link variant="accent" href="https://supabase.com">
-            Supabase
-          </Link>
-          .
-        </Paragraph>
-        <Paragraph>
-          If you want to create your own instance, find out more at{' '}
-          <Link variant="accent" href="https://github.com/mrmartineau/Otter">
-            the project home page
-          </Link>
-          .
         </Paragraph>
       </article>
     </Container>
